@@ -5,7 +5,7 @@
 	"##note3": "3.某一配置项如果不存在, 但存在default项目项, 则使用default配置项. 如: EffectParams::capture下未配置OtherFront, 则使用default配置项",
 
 	"TrueSight": "",
-	"BrandModel": "xiaomi_m1",
+	"BrandModel": "xiaomi_m2",
 	"CaptureDefaultEffectPath": "render/Effect/effect_mode_clear.json",
 	"PreviewDefaultEffectPath": "render/Effect/effect_mode_clear.json",
 	"EffectGLSLPath": "render/glsl/",
@@ -23,8 +23,8 @@
 			{
 				"##": "视频模式",
 				"Type": 1,
-				"Iso": [  1199, 1200, 2399, 2400, 3999, 4000],
-				"Factor":[1.0, 0.8, 0.8, 0.6,  0.6, 0.4]
+				"Iso": [  299, 300, 799, 800, 1199, 1200],
+				"Factor":[1.0, 0.8, 0.8, 0.5,  0.5, 0.2]
 			}
 		],
 		"##": "环境光系数",

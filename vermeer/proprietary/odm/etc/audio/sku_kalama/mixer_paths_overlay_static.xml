@@ -247,7 +247,17 @@
         <ctl name="AMIC1_MIXER Switch" value="1" />
         <ctl name="ADC1_MIXER Switch" value="1" />
         <ctl name="ADC1 Volume" value="8" />
-        <ctl name="TX_DEC0 Volume" value="86" />
+	<ctl name="TX_DEC0 Volume" value="86" />
+	<ctl name="TX_AIF1_CAP Mixer DEC1" value="1" />
+	<ctl name="TX DEC1 MUX" value="SWR_MIC" />
+	<ctl name="TX SMIC MUX1" value="SWR_MIC8" />
+	<ctl name="ADC3 MUX" value="CH3_AMIC5" />
+	<ctl name="ADC3 ChMap" value="SWRM_TX3_CH1" />
+	<ctl name="TX2 MODE" value="ADC_LP" />
+	<ctl name="ADC3_MIXER Switch" value="1" />
+	<ctl name="AMIC5_MIXER Switch" value="1" />
+	<ctl name="ADC3 Volume" value="8" />
+	<ctl name="TX_DEC1 Volume" value="86" />
     </path>
 
     <path name="va-mic-dmic-lpi">

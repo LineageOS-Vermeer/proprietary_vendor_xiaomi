@@ -655,6 +655,14 @@
                                         "com.duowan.kiwi"]
         },
         {
+            "ApkFunctionType":"DisablePrivatePort",
+            "ApkTable" :[""]
+        },
+        {
+            "ApkFunctionType":"DisableGpuRotation",
+            "ApkTable" :[""]
+        },
+        {
             "ApkFunctionType":"GlobalVideoOptimize",
             "ApkTable" :["com.whatsapp"]
         }

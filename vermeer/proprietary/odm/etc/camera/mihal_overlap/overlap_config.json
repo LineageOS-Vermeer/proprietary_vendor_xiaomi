@@ -672,6 +672,14 @@
                                         "com.duowan.kiwi"]
         },
         {
+            "ApkFunctionType":"DisablePrivatePort",
+            "ApkTable" :["com.instagram.android"]
+        },
+        {
+            "ApkFunctionType":"DisableGpuRotation",
+            "ApkTable" :["com.ss.android.auto"]
+        },
+        {
             "ApkFunctionType":"GlobalVideoOptimize",
             "ApkTable" :[""]
         }

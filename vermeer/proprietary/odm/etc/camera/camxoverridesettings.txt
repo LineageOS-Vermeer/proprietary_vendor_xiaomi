@@ -1,21 +1,12 @@
 # N11 setting file
 multiCameraLogicalXMLFile=vermeer.xml
 
-#camera log
-overrideLogLevels=0x0
-logInfoMask=0
-logWarningMask=0
-logConfigMask=0
-logVerboseMask=0
-logCoreCfgMask=0
-logRequestMapping=FALSE
-systemLogEnable=TRUE
-enableAsciiLogging=0
-enableTxtLogging=0
-enableCameraCoreDumpBinary=FALSE
-enableCameraCoreDumpText=FALSE
-raiserecoverysigabrt=FALSE
+enableTxtLogging=1
+offlineLogNumber=15
 offlineLoggerEnableBackupLog=FALSE
+logInfoMask=0x10098
+overrideLogLevels=0x1F
+raiserecoverysigabrt=TRUE
 numConsecutiveRecovery=10
 #For stability
 enableSignal35Tombstone=FALSE
@@ -50,6 +41,7 @@ EnableLowFpsForSATnNight=TRUE
 autoImageDumpCHINodeinputPortMask = 0x0
 
 #SAT
+enableFDFullStreamDimension=FALSE
 enablePostZoomFOV=1
 isPhyicalMultiCameraSupported=TRUE
 multiCameraEnable=TRUE
@@ -180,7 +172,7 @@ bokehFallbackLuxThreshold0=453:413|445:405|453:413|453:413
 #Leica Authentic - uw_in:uw_out|wide_in:wide_out|tele3x_in:tele3x_out|tele5x_in:tele5x_out
 bokehFallbackLuxThreshold1=453:413|445:405|453:413|453:413
 BokehRemosaicLuxGain=95
-SDK_LOG_LEVEL=3
+SDK_LOG_LEVEL=4
 
 #Enable sensor Hw sync triger OIS sync mode
 enableOISHwSyncMode=TRUE
@@ -266,6 +258,8 @@ EnableRemapISO=TRUE
 
 #Quick Preview Control
 QuickPreviewMask=0x2204
+
+AsyncCreateofflineFeature=true
 
 #Enable earlyPCR
 numPCRsBeforeStreamOn=1

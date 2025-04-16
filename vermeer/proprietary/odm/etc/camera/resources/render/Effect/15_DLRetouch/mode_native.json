@@ -10,7 +10,7 @@
 			{
 				"Enable":true,
 				"KeepNevus":true,
-				"MaleDegreeFactor":0.3
+				"MaleDegreeFactor":0.5
 			}
 		},
 		{
@@ -21,7 +21,7 @@
 				"Enable":true,
 				"DefaultDegree":0.4,
 				"DegreeFactor":1.0,
-				"MaleDegreeFactor":0.5
+				"MaleDegreeFactor":1.0
 			}
 		},
 		{
@@ -48,8 +48,8 @@
 				"MaleDegreeList": {
 					"ForeheadLine": 1.0,
 					"EyeLine": 1.0,
-					"LegalLine": 0.5,
-					"DarkCircle": 0.5,
+					"LegalLine": 1.0,
+					"DarkCircle": 1.0,
 					"Unique": 1.0
 				}
 			}

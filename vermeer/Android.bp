@@ -6,7 +6,7 @@ soong_namespace {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.qti.camera.postproc-impl",
+	name: "vendor.qti.camera.postproc-impl.xml",
 	owner: "xiaomi",
 	src: "proprietary/odm/etc/vintf/manifest/vendor.qti.camera.postproc-impl.xml",
 	filename_from_src: true,
@@ -15,7 +15,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.qti.camera.provider",
+	name: "vendor.qti.camera.provider.xml",
 	owner: "xiaomi",
 	src: "proprietary/odm/etc/vintf/manifest/vendor.qti.camera.provider.xml",
 	filename_from_src: true,
@@ -24,7 +24,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.xiaomi.camera.aon-impl",
+	name: "vendor.xiaomi.camera.aon-impl.xml",
 	owner: "xiaomi",
 	src: "proprietary/odm/etc/vintf/manifest/vendor.xiaomi.camera.aon-impl.xml",
 	filename_from_src: true,
@@ -33,7 +33,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.xiaomi.sensor.citsensorservice@2.0-service",
+	name: "vendor.xiaomi.sensor.citsensorservice@2.0-service.xml",
 	owner: "xiaomi",
 	src: "proprietary/odm/etc/vintf/manifest/vendor.xiaomi.sensor.citsensorservice@2.0-service.xml",
 	filename_from_src: true,
